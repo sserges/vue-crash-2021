@@ -47,7 +47,6 @@ export default {
       }
 
       const newTask = {
-        id: Date.now(),
         text: this.text,
         day: this.day,
         reminder: this.reminder,
